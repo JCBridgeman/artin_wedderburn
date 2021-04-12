@@ -125,7 +125,7 @@ class ArtinWedderburn:
             block_pre_unit)
 
         # we have only captured the identity up to scalar multiplication
-        # we need the identity on the node if we want to recover the correct scale
+        # we need the identity on the nose if we want to recover the correct scale
         # for the representations
         factor = pre_block.left_multiplication_matrix(pre_block.unit)[0,0]
         block = Algebra(
